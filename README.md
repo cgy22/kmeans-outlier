@@ -16,13 +16,13 @@ The project includes a full pipeline: synthetic data generation, model training,
 
 | Category | Features |
 | :--- | :--- |
-| 🧠 **Algorithm** | KMeans++ initialization, matrix-optimized distance computation, multiple restarts for stability |
-| 🎯 **Detection** | Distance-to-nearest-center as anomaly score, threshold via mean+k*std or quantile |
-| 📊 **Datasets** | Four synthetic datasets: spherical baseline, 8D high-dimensional, imbalanced clusters, and unlabeled inference data |
-| ⚙️ **Pipeline** | Train, save model parameters, reload, and predict on new data with consistent standardization |
-| 🖥️ **CLI** | Command-line arguments for dataset selection, cluster count, threshold method, and model prefix |
-| 📝 **Evaluation** | Precision, recall, and F1 score computed when labels are available |
-| 🔍 **Self-check** | Independent script demonstrating the algorithm's correctness against sklearn's inertia |
+| **Algorithm** | KMeans++ initialization, matrix-optimized distance computation, multiple restarts for stability |
+| **Detection** | Distance-to-nearest-center as anomaly score, threshold via mean+k*std or quantile |
+| **Datasets** | Four synthetic datasets: spherical baseline, 8D high-dimensional, imbalanced clusters, and unlabeled inference data |
+| **Pipeline** | Train, save model parameters, reload, and predict on new data with consistent standardization |
+| **CLI** | Command-line arguments for dataset selection, cluster count, threshold method, and model prefix |
+| **Evaluation** | Precision, recall, and F1 score computed when labels are available |
+| **Self-check** | Independent script demonstrating the algorithm's correctness against sklearn's inertia |
 
 ---
 
